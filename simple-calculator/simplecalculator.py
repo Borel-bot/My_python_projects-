@@ -1,7 +1,7 @@
 import tkinter as tk
 
 # Create the main application window
-root = tk.TK()
+root = tk.Tk()
 root.title("Simple Calculator")
 
 # Create the entry widget to show calculations
