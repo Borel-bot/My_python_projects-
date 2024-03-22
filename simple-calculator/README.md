@@ -1,4 +1,4 @@
-Certainly! This code is a simple calculator application made with `tkinter`, a standard Python interface to the Tk GUI toolkit. Here's a breakdown of its components:
+This code is a simple calculator application made with `tkinter`, a standard Python interface to the Tk GUI toolkit. Here's a breakdown of its components:i
 
 - **Importing tkinter**: `import tkinter as tk` imports the tkinter module and gives it the alias `tk`.
 
@@ -59,4 +59,4 @@ Certainly! This code is a simple calculator application made with `tkinter`, a s
 
 The `lambda` expressions in the button creation are used to pass the button's value to the `button_click` function when clicked. The `eval` function in `button_equal` is a quick way to evaluate the string expression, but be cautious as it can execute arbitrary code if not properly sanitized.
 
-That's a high-level overview of the code. It sets up a GUI for a simple calculator that can perform basic arithmetic operations. Would you like to know more details about any specific part?
+That's a high-level overview of the code. It sets up a GUI for a simple calculator that can perform basic arithmetic operations.
