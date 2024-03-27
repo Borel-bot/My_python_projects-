@@ -6,7 +6,7 @@ def encode(key, message):
     encoded_chars = []
     for i in range(len(message)):
         if message[i].isalpha():
-            shitf = 65 if message[i].isupper() else 97
+            shift = 65 if message[i].isupper() else 97
             encoded_char = chr((ord(message[i]) + key - shift) %26 + shift)
             encoded_chars.append(encoded_char)
         else:
@@ -28,7 +28,7 @@ def on_encode():
 def on_decode():
     key = int(key_entry.get())
     message = message_entry.get()
-    decode_message = decode(key, message)
+    decoded_message = decode(key, message)
     result_label.config(text=f'Decoded Message: {decoded_message}')
 
 # Create the main window of the application
